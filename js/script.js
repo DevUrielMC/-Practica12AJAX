@@ -22,6 +22,6 @@ function MiFuncionCallBack()
     if(xhr.readyState ==4)
     {
         alert("Ya se proceso tu solicitud y fue correcta");
-        document.getElementById("divResultado").innerHTML = xhr.responseText
+        document.getElementById("divResultado").innerHTML = xhr.response;
     }
 }
